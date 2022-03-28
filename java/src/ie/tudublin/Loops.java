@@ -84,6 +84,14 @@ public class Loops extends PApplet {
 					}
 				}
 
+			case 4:
+				background(0);
+				colorMode(RGB);
+				stroke(255);
+				float cx = width/2;
+				float cy = height/2;
+				float radius = 200;
+
 				// map(a,b,c,d,e);
 				// a = inputvalue
 				// b - c - start and end of the first range

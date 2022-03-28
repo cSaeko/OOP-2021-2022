@@ -34,21 +34,17 @@ public class Main
         System.out.println(lucy);
 
         
-        Cat cat = new Cat("Ginger");
+        Cat pussy = new Cat("Ginger");
 
-        while(cat.getNumLives() > 0)
+        while(pussy.getNumLives() > 0)
         {
-            cat.kill();
+            pussy.kill();
         }
-        cat.kill();
+        pussy.kill();
 
     }
     public static void main(String[] args)
-    {
-        cat();
-
-        // Tara Misty
-        // Tara Tara
-        
+    {   
+        bugZap();
     }
 }
